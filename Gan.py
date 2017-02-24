@@ -9,7 +9,7 @@ import cv2
 
 TINY = 1e-8
 
-class InfoGan(object):
+class Gan(object):
 
     #build model
     def __init__(self, batch_size, max_epoch, build_model_flag, model_path, encode_z_model, encode_y_model, data, label, extend_value,

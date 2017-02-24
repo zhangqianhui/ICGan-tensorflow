@@ -5,11 +5,11 @@ import dateutil.tz
 import datetime
 from  utils import mkdir_p
 from utils import MnistData
-from InfoGan import InfoGan
+from Gan import Gan
 
 flags = tf.app.flags
 
-flags.DEFINE_integer("OPER_FLAG" , 3 , "the flag of  opertion")
+flags.DEFINE_integer("OPER_FLAG" , 1 , "the flag of  opertion")
 flags.DEFINE_integer("extend" , 1 , "contional value y")
 
 FLAGS = flags.FLAGS
@@ -64,7 +64,7 @@ if __name__ == "__main__":
 
     data , label = MnistData().load_mnist()
 
-    infoGan = InfoGan(batch_size=batch_size, max_epoch=max_epoch, build_model_flag = build_model_flag,
+    infoGan = Gan(batch_size=batch_size, max_epoch=max_epoch, build_model_flag = build_model_flag,
                       model_path=root_checkpoint_dir, encode_z_model=encode_z_checkpoint_dir,encode_y_model=encode_y_checkpoint_dir,
                       data=data,label=label, extend_value=FLAGS.extend,
                       network_type="mnist", sample_size=sample_size,
