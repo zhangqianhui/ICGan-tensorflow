@@ -43,15 +43,15 @@ In this paper , a real image can be encoded into a latent code z and conditional
 
 The original image:
 
-![](images/test_r.png)
+![](img/test_r.png)
 
 The restruction image:
 
-![](images/test1.png)
+![](img/test1.png)
 
 The new sample of changing y:
 
-![](images/test2.png)
+![](img/test2.png)
 
 
 ##Reference code
