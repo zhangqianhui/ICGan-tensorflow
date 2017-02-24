@@ -5,6 +5,12 @@ the test code of [Invertible conditional GANs for image editing](https://arxiv.o
 ##INTRODUCTION
 In this paper , a real image can be encoded into a latent code z and conditional information y,and then reconstucted to the origial image by generative model of Gans.The paper fix z and modify y to obtain variations of the original image.
 
+The IcGAN is trained in three steps.
+
+    1.Train the Gan.
+    2.Train the encoder Z to map an image x to a latent representation z with the dataset generated images.
+    3.Train the encoder Y to map an image x to a conditional information vector y with the dataset of real images.
+
 ##Prerequisites
 
 - tensorflow 1.0
