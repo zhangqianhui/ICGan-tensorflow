@@ -1,5 +1,5 @@
 # ICGan-tensorflow
-the test code of [Invertible conditional GANs for image editing](https://arxiv.org/abs/1611.06355)) using Tensorflow.
+the test code of [Invertible conditional GANs for image editing](https://arxiv.org/abs/1611.06355) using Tensorflow.
 
 [The Torch code of Author](https://github.com/Guim3/IcGAN).
 ##INTRODUCTION
