@@ -39,15 +39,19 @@ In this paper , a real image can be encoded into a latent code z and conditional
   
     $ python main.py --OPER_FLAG 3 --extend 1
 
-##Result:
+##Result of Test in mnist dataset:
 
-the visualization of weights:
+The original image:
 
-![](images/weights.png)
+![](images/test_r.png)
 
-the visualization of activation:
+The restruction image:
 
-![](images/activations.png)
+![](images/test1.png)
+
+The new sample of changing y:
+
+![](images/test2.png)
 
 
 ##Reference code
