@@ -3,7 +3,7 @@ the test code of [Invertible conditional GANs for image editing](https://arxiv.o
 
 [The Torch code of Author](https://github.com/Guim3/IcGAN).
 ##INTRODUCTION
-In this paper , a real image can be encoded into a latent code z and conditional information y,and then reconstuction to origial image by generative model of Gans.The paper fix z and modify y to obtain variations of the original image.
+In this paper , a real image can be encoded into a latent code z and conditional information y,and then reconstucted to the origial image by generative model of Gans.The paper fix z and modify y to obtain variations of the original image.
 
 ##Prerequisites
 
