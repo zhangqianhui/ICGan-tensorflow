@@ -11,7 +11,7 @@ The IcGAN is trained in three steps.
     2.Train the encoder Z to map an image x to a latent representation z with the dataset generated images.
     3.Train the encoder Y to map an image x to a conditional information vector y with the dataset of real images.
 
-##Prerequisites
+## Prerequisites
 
 - tensorflow 1.0
 
@@ -19,7 +19,7 @@ The IcGAN is trained in three steps.
 
 - opencv 2.4.8
 
-##Usage
+## Usage
 
   Download mnist:
   
@@ -45,7 +45,7 @@ The IcGAN is trained in three steps.
   
     $ python main.py --OPER_FLAG 3 --extend 1
 
-##Result of Test in mnist dataset:
+## Result of Test in mnist dataset:
 
 The original image:
 
@@ -60,6 +60,6 @@ The new sample of changing y:
 ![](img/test2.png)
 
 
-##Reference code
+## Reference code
 
 [DCGAN](https://github.com/carpedm20/DCGAN-tensorflow)
