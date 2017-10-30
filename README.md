@@ -2,7 +2,8 @@
 the test code of [Invertible conditional GANs for image editing](https://arxiv.org/abs/1611.06355) using Tensorflow.
 
 [The Torch code of Author](https://github.com/Guim3/IcGAN).
-##INTRODUCTION
+
+## INTRODUCTION
 In this paper , a real image can be encoded into a latent code z and conditional information y,and then reconstucted to the origial image by generative model of Gans.The paper fix z and modify y to obtain variations of the original image.
 
 The IcGAN is trained in three steps.
